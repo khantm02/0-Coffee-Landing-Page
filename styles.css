@@ -1,0 +1,127 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+}
+
+.header {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #ffffff; */
+}
+
+.header a img {
+  height: 80px;
+  width: auto;
+  padding: 0;
+  color: #777;
+}
+
+.nav {
+  /* background-color: aqua; */
+  /* color: #777; */
+}
+
+.nav a:link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+.nav a:active {
+  background-color: lightgreen;
+}
+
+.nav a:last-child {
+  margin-right: 0px;
+}
+
+.textTitle {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.textTitle span {
+  font-weight: 900;
+  color: green;
+  font-size: 3.5rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  /* padding: 20px 40px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+}
+
+.textBox {
+  /* margin-top: 50px; */
+}
+
+.textBox p {
+  /* background-color: green; */
+  width: 60%;
+}
+
+.textBox button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.imgBox {
+  margin-bottom: 50px;
+}
+
+.productImg {
+  max-width: 250px;
+  max-height: 250px;
+  transition: 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+footer img {
+  height: 80px;
+  width: auto;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+footer img:hover {
+  transform: translateY(-15px);
+}
+
+.socials {
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.socials li {
+  list-style: none;
+}
+
+.socials li img {
+  margin-right: 10px;
+  height: 20px;
+  max-width: 250px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"><img src="./images/cup_16475956.png" alt="" /></a>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">What's New</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="textBox">
+        <h2 class="textTitle">
+          It's not just Coffee <br />It's <span>Delica</span>
+        </h2>
+        <p class="textBody">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non
+          facilis aliquam saepe voluptas voluptatibus, quos illum accusamus quo
+          quae necessitatibus modi.
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+      <div class="imgBox">
+        <img
+          class="productImg"
+          src="./images/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png"
+          alt="product-image"
+        />
+      </div>
+    </main>
+    <footer>
+      <img
+        src="./images/62115-tea-coffee-drink-starbucks-latte-free-download-image.png"
+        alt="coffee-one"
+        onclick="switchImg('./images/62115-tea-coffee-drink-starbucks-latte-free-download-image.png'), changeBackground('#ffb7b7')"
+      />
+      <img
+        src="/images/62120-coffee-frappuccino-drink-latte-starbucks-unicorn.png"
+        alt="coffee-two"
+        onclick="switchImg('./images/62120-coffee-frappuccino-drink-latte-starbucks-unicorn.png'), changeBackground('#d896ff')"
+      />
+      <img
+        src="./images/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png"
+        alt="coffee-three"
+        onclick="switchImg('./images/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png'), changeBackground('#90ee90')"
+      />
+    </footer>
+    <ul class="socials">
+      <li><img src="./images/facebook.png" alt="facebook" /></li>
+      <li><img src="./images/instagram.png" alt="instagram" /></li>
+      <li><img src="./images/twitter.png" alt="twitter" /></li>
+    </ul>
+    <script src="./script.js"></script>
+  </body>
+</html>
